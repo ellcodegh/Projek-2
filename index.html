@@ -1,136 +1,168 @@
 <!DOCTYPE html>
 <html>
-        <head>
-            <title> Selamat Datang di Webku</title>
-       
-        </head>
-        <body>
 
-            <!--Bagian Atas-->
-            <header>
-                <h1>Sekapur Sirih</h1>
-            </header>
+<head>
+    <title> Selamat Datang di Webku</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
 
-            <!--Menu Navigasi-->
-            <nav>
-                <table border="1" cellspacing="0" cellpadding="8">
+</head>
+
+<body>
+
+    <!--Bagian Atas-->
+    <header>
+        <h1>Sekapur Sirih</h1>
+    </header>
+
+    <!--Menu Navigasi-->
+    <nav>
+        <table border="1" cellspacing="0" cellpadding="8">
+            <tr>
+                <td><a href="#profil">Profil</a></td>
+                <td><a href="#tradisi">Tradisi Desa</a></td>
+                <td><a href="#pendidikan">Pendidikan</a></td>
+                <td><a href="#karir">Karir</a></td>
+                <td><a href="#galeri">Galeri</a></td>
+            </tr>
+        </table>
+    </nav>
+
+    <!--Konten Utama-->
+    <main>
+        <!--Bagian Profil-->
+        <section id="profil">
+            <H2>Data Diri Rafael</H2>
+            <p align="justify">
+                Nama : Muhammad Rafael Rasya N <br>
+                NIM : A12.2024.07153
+            </p>
+
+            <table style="width:50%">
+
                 <tr>
-                    <td><a href="#profil">Profil</a></td>
-                    <td><a href="#tradisi">Tradisi Desa</a></td>
-                    <td><a href="#pendidikan">Pendidikan</a></td>
-                    <td><a href="#karir">Karir</a></td>
-                    <td><a href="#galeri">Galeri</a></td>
-                </tr>    
+                    <th>Nama</th>
+                    <th>NIM</th>
+                </tr>
+                <tr>
+                    <td>Muhammad Rafael Rasya N</td>
+                    <td>A12.2024.07153</td>
+                </tr>
+            </table>
+
+            <div>
+                <p>
+                    <br>
+                    Ini salah satu foto desa:
+                </p>
+                <table>
+                    <tr>
+                        <th> Foto 1</th>
+                        <th> Foto 2</th>
+                    </tr>
+                    <tr>
+                        <td><img src="gambar/download (1).jpg" alt="foto pemandangan 1"></td>
+                        <td><img src="gambar/Pin by Tudy on Pittura _ Cute fall wallpaper, Cute wallpaper backgrounds, Cute wallpapers.jpg" width="300px" height="180" alt="foto pemandangan 2"></td>
+                    </tr>
+
+                    <td>Sumber Foto : <a href="https://google.com/" target="_blank">Sumber</a></td>
+
                 </table>
-            </nav>
 
-            <!--Konten Utama-->
-            <main>
-                <!--Bagian Profil-->
-                <section id="profil">
-                    <H2>Data Diri Rafael</H2>
-                    <p align="justify">
-                        Nama     : Muhammad Rafael Rasya N <br>
-                        NIM      : A12.2024.07153
-                        </p>
-                        <br>
-                        Ini salah satu foto desa:
-                        </p>
-                        <br>
-                        <table>
-                            <tr>
-                                <th> Foto 1</th><th> Foto 2</th>
-                            </tr>
-                            <tr>
-                                <td><img src="gambar\download (1).jpg" alt="foto pemandangan 1"></td>
-                                <td><img src="gambar\download.jpg" alt="foto pemandangan 2"></td>
-                            </tr>
-                            
-                            <td>Sumber Foto : <a href="https://google.com/" target="_blank" >Sumber</a></td>
+                <p><a href="#top">Kembali ke Atas</a></p>
+                </p>
+        </section>
 
-                        </table>
-                        
-                    <p><a href="#top">Kembali ke Atas</a></p>
-                    </p>
-                </section>
+        <section>
+            <form>
+                <br>
+                <h1>Silahkan isi data Anda di sini</h1>
+                Nama :<input type="text" name="tnama"><br>
+                Email :<input type="email" name="temail">
+                <input type="submit" value="kirim">
+                <br>
+            </form>
+        </section>
 
-                <section>
-                    <form>
-                        <br>
-                        <h1>Silahkan isi data Anda di sini</h1>
-                        Nama    :<input type="text" name="tnama"><br>
-                        Email   :<input type="email" name="temail">
-                        <input type="submit" value="kirim">
-                        <br>
-                    </form>
-                </section>
+        <section>
+            <h1>Hobi</h1>
+            <ul>
+                <li>Belajar</li>
+                <li>Membaca</li>
+                <li>Bersepeda</li>
+            </ul>
+            <h1>Keahlian</h1>
+            <ol>
+                <li>Web Develop</li>
+                <li>Makan Banyak</li>
+                <li>Terbang</li>
+            </ol>
+        </section>
 
-                <section>
-                    <h1>Hobi</h1>
-                    <ul>
-                        <li>Belajar</li>
-                        <li>Membaca</li>
-                        <li>Bersepeda</li>
-                    </ul>
-                    <h1>Keahlian</h1>
-                    <ol>
-                        <li>Web Develop</li>
-                        <li>Makan Banyak</li>
-                        <li>Terbang</li>
-                    </ol>
-                </section>
+        <!--Bagian Pendidikan-->
+        <section id="pendidikan">
+            <H2>Profil Pendidikan</H2>
+            <p align="justify">
+                Konon, Mbah Kasno adalah sesepuh desa yang sangat dihormati.
+                Ia bukan dukun atau orang sakti, melainkan seorang petani biasa dengan kearifan luar biasa.
+                Ia sering duduk di atas batu besar di dekat sumber mata air, merenung sambil mengamati sawah.
+                Saat Mbah Kasno meninggal, batu itu tetap di sana, seolah-olah menjaga desa.
+                <br>
+                Informasi tentang teks di atas silahkan
+                <a href="https://gemini.google.com/?hl=id" target="_blank">disini</a>
+                <br><a href="#top">Kembali ke Atas</a>
+            </p>
+        </section>
 
-                <!--Bagian Pendidikan-->
-                <section id="pendidikan">
-                    <H2>Profil Pendidikan</H2>
-                    <p align="justify">
-                        Konon, Mbah Kasno adalah sesepuh desa yang sangat dihormati. 
-                        Ia bukan dukun atau orang sakti, melainkan seorang petani biasa dengan kearifan luar biasa. 
-                        Ia sering duduk di atas batu besar di dekat sumber mata air, merenung sambil mengamati sawah. 
-                        Saat Mbah Kasno meninggal, batu itu tetap di sana, seolah-olah menjaga desa.
-                        <br>
-                        Informasi tentang teks di atas silahkan
-                        <a href="https://gemini.google.com/?hl=id" target="_blank">disini</a>
-                    <br><a href="#top">Kembali ke Atas</a>
-                    </p>
-                </section>
+        <!--Bagian Karir-->
+        <section id="karir">
+            <H2>Profil Karir</H2>
+            <p align="justify">
+                Hingga suatu hari, sebuah perusahaan dari kota datang. Mereka ingin membeli tanah di sekitar mata air
+                untuk membangun pabrik.
+                Warga desa menolak, namun perusahaan terus mendesak. Malam itu, saat para utusan perusahaan sedang
+                beristirahat,
+                mereka mendengar suara aneh dari arah mata air. Suaranya seperti erangan panjang yang dalam, membuat
+                bulu kuduk berdiri.
+                Ketika mereka mendekat, batu Mbah Kasno terlihat memancarkan cahaya redup, seolah-olah menolak kehadiran
+                mereka.
+                <br>
+                Informasi tentang teks di atas silahkan
+                <a href="https://grok.com/" target="_blank">disini</a>
+                <br><a href="#top">Kembali ke Atas</a>
+            </p>
+        </section>
 
-                <!--Bagian Karir-->
-                <section id="karir">
-                    <H2>Profil Karir</H2>
-                    <p align="justify">
-                        Hingga suatu hari, sebuah perusahaan dari kota datang. Mereka ingin membeli tanah di sekitar mata air untuk membangun pabrik. 
-                        Warga desa menolak, namun perusahaan terus mendesak. Malam itu, saat para utusan perusahaan sedang beristirahat, 
-                        mereka mendengar suara aneh dari arah mata air. Suaranya seperti erangan panjang yang dalam, membuat bulu kuduk berdiri. 
-                        Ketika mereka mendekat, batu Mbah Kasno terlihat memancarkan cahaya redup, seolah-olah menolak kehadiran mereka.
-                        <br>
-                        Informasi tentang teks di atas silahkan
-                        <a href="https://grok.com/" target="_blank">disini</a>
-                    <br><a href="#top">Kembali ke Atas</a>
-                    </p>
-                </section>
+        <!--Bagian Galeri-->
+        <section id="galeri">
+            <H2>Profil Galeri</H2>
+            <p align="justify">
+                Keesokan paginya, utusan perusahaan itu pergi terburu-buru, tanpa sepatah kata pun. Mereka tidak pernah
+                kembali lagi.
+                Sejak saat itu, warga desa semakin percaya bahwa batu peninggalan Mbah Kasno adalah pelindung desa
+                mereka,
+                simbol dari kearifan dan kekuatan alam yang tak bisa ditaklukkan oleh keserakahan. Dan hingga kini, batu
+                itu tetap di sana,
+                menjadi penjaga setia Desa Sungsang.
+                <br> <br>
+                Informasi tentang teks di atas silahkan
+                <a href="https://dinus.ac.id/" target="_blank">disini</a>
+                <br><a href="#top">Kembali ke Atas</a>
+            </p>
+        </section>
 
-                <!--Bagian Galeri-->
-                <section id="galeri">
-                    <H2>Profil Galeri</H2>
-                    <p align="justify">
-                        Keesokan paginya, utusan perusahaan itu pergi terburu-buru, tanpa sepatah kata pun. Mereka tidak pernah kembali lagi. 
-                        Sejak saat itu, warga desa semakin percaya bahwa batu peninggalan Mbah Kasno adalah pelindung desa mereka, 
-                        simbol dari kearifan dan kekuatan alam yang tak bisa ditaklukkan oleh keserakahan. Dan hingga kini, batu itu tetap di sana, 
-                        menjadi penjaga setia Desa Sungsang.
-                        <br>                        <br>
-                        Informasi tentang teks di atas silahkan
-                        <a href="https://dinus.ac.id/" target="_blank">disini</a>
-                    <br><a href="#top">Kembali ke Atas</a>
-                    </p>
-                </section>
+        <!--Bagian Bawah-->
+        <footer>
+            <hr>
+            <p>&copy; 2025 - Muhammad Rafael Rasya / A12.2024.07153 </p>
 
-                    <!--Bagian Bawah-->
-            <footer>
-                <hr>
-                <p>&copy; 2025 - Muhammad Rafael Rasya / A12.2024.07153 </p>
+        </footer>
+    </main>
+</body>
 
-            </footer>
-            </main>
-        </body>
 </html>
